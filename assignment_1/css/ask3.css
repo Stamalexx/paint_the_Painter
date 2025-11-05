@@ -1,0 +1,17 @@
+h1,p,li {
+    background-color: rgb(109, 182, 113);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#first_paragraph {
+    
+    text-align: justify;
+    background-color: rgb(208, 223, 209);
+}
+
+.copyright {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
