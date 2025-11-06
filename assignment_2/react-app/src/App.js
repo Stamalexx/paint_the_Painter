@@ -1,16 +1,16 @@
-import './App.css';
-import Body from './components/Body';
-import Footer from './components/Footer';
-import Header from './components/Header';
+// import "./assets/css//App.css";
+import SectionApp from './components/SectionApp/SectionApp';
+import FooterApp from './components/FooterApp/FooterApp';
+import AppBar from './components/AppBar/AppBar';
 
 
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <AppBar />
+      <SectionApp />
+      <FooterApp />
     </>
   );
 }
