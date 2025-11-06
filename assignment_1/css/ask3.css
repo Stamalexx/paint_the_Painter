@@ -1,7 +1,26 @@
-h1,p,li {
-    background-color: rgb(109, 182, 113);
-    text-align: center;
+p {
+    text-align: justify;
     font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(129, 205, 133);
+
+}
+h1 {
+    text-align: center;
+    background-color: rgb(5, 165, 13);
+}
+
+li {
+    background-color: rgb(196, 231, 196);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ul {
+    list-style-type: circle;
+}
+ol {
+    font-style: italic;
+    list-style-type: lower-greek;
 }
 
 #first_paragraph {
@@ -14,4 +33,23 @@ h1,p,li {
     color: aliceblue;
     background-color: black;
     text-align: center;
+}
+
+.code-text {
+  font-style: italic;
+}
+img {
+  width: 300px;
+  height: auto;
+}
+
+#img-b {
+    width: 150px;
+    
+}
+video {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
