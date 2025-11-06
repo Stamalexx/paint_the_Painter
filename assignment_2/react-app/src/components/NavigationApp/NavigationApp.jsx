@@ -1,7 +1,8 @@
+import style from "./NavigationApp.module.css"
 export default function NavigationApp() {
   return (
-    <footer>
-      <h1>footer</h1>
-    </footer>
+    <nav className={style.container}>
+      <h1>navi</h1>
+    </nav>
   );
 }
